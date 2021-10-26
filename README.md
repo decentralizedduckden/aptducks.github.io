@@ -1,2 +1,2 @@
-# decentralized.github.io
+# decentralizedduckden.github.io
 Decentralized Duck Den's github pages website
