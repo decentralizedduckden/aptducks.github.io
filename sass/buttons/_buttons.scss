@@ -1,0 +1,19 @@
+.btn {
+  font-weight: 600;
+  font-size: $font-size-22;
+  border-radius: $border-rad;
+}
+
+.btn-yellow {
+  background: $yellow-color;
+  color: $yellow-dark-text;
+  padding: 14px 32px;
+
+  img {
+    margin-left: 16px;
+  }
+
+  &:hover {
+    box-shadow: 0 0 15px rgba($yellow-color, 0.5);
+  }
+}

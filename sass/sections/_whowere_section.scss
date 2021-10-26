@@ -1,0 +1,20 @@
+.whowere-section {
+  .container {
+    justify-content: space-between;
+  }
+
+  .section-content {
+    flex-basis: inherit;
+  }
+}
+
+.whowere-image {
+  img {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 32px;
+    object-fit: cover;
+    border-radius: $border-rad;
+    box-shadow: 0 4px 20px rgba(#000, 0.2);
+  }
+}

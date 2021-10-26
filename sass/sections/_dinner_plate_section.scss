@@ -1,0 +1,19 @@
+.dinner-plate-section {
+  .container {
+    justify-content: space-between;
+
+    h3 {
+      margin-top: 16px;
+    }
+  }
+}
+
+.dinner-plate-image {
+  flex-basis: 40%;
+
+  img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+  }
+}

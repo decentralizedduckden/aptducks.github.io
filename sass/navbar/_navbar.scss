@@ -1,0 +1,55 @@
+.navbar {
+  width: 100%;
+  max-width: $max-width;
+  height: 80px;
+  position: fixed;
+  top: 60px;
+  z-index: 99999;
+}
+
+.navbar-container {
+  width: $width;
+  margin: auto;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.navbar-scrolled-container {
+  background: rgba($dark-color, 0.7);
+  backdrop-filter: blur(20px);
+  border-radius: $border-rad;
+}
+
+.navbar-logo {
+  font-size: $font-size-22;
+  color: $pure-white;
+  animation: neon 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px rgba($pure-white, 0.5);
+  }
+  to {
+    text-shadow: 0 0 20px rgba($pure-white, 0.5);
+  }
+}
+
+.navbar-a {
+  color: $pure-white;
+  font-size: $font-size-22;
+  text-shadow: 0 0 5px rgba($color: $dark-color, $alpha: 0.5);
+  border-bottom: 2px solid transparent;
+  margin-right: 48px;
+
+  &:hover {
+    color: $yellow-color;
+    border-bottom-color: $yellow-color;
+    text-shadow: 0 0 10px rgba($yellow-color, 0.8);
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
