@@ -1,0 +1,40 @@
+.faq-container {
+  width: 80%;
+
+  .section-title {
+    margin-bottom: 32px;
+  }
+
+  ul,
+  li {
+    text-align: justify;
+    list-style: none;
+  }
+}
+
+.parent-li {
+  font-size: $font-size-22;
+  margin: 64px 0;
+  border-left: 5px solid rgba($yellow-color, 0.5);
+  padding-left: 16px;
+
+  &::before {
+    content: "🤔 ";
+    font-weight: 700;
+  }
+}
+
+.child-li {
+  font-size: $font-size-16;
+  &::before {
+    content: "✔️ ";
+  }
+}
+
+.child-ul {
+  margin: 32px 0;
+}
+
+.faq-bottom-text {
+  margin-top: 64px;
+}
