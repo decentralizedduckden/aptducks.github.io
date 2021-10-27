@@ -5,6 +5,12 @@ $font: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 
 $width: 80%;
 $max-width: 1920px;
+$responsive-width: 95%;
+
+$screen-1920px: 1920px;
+$screen-1100px: 1100px;
+$screen-950px: 950px;
+$screen-770px: 770px;
 
 $border-rad: 20px;
 
@@ -17,6 +23,9 @@ $pure-white: #fff;
 $grey-200: #828282;
 $grey-300: #4f4f4f;
 
+$font-size-64: 64px;
+$font-size-56: 56px;
+$font-size-48: 48px;
 $font-size-32: 32px;
 $font-size-28: 28px;
 $font-size-24: 24px;

@@ -56,3 +56,47 @@
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (min-width: $screen-1920px) {
+  .section-title {
+    font-size: $font-size-64;
+  }
+
+  .section-text {
+    font-size: $font-size-32;
+  }
+}
+
+@media only screen and (max-width: $screen-1100px) {
+  .section-title {
+    font-size: $font-size-32;
+  }
+
+  .section-text {
+    font-size: $font-size-18;
+  }
+}
+
+@media only screen and (max-width: $screen-950px) {
+  .section-title {
+    font-size: $font-size-28;
+  }
+
+  .section-text {
+    font-size: $font-size-16;
+  }
+}
+
+@media only screen and (max-width: $screen-770px) {
+  .section-title {
+    font-size: $font-size-28;
+  }
+
+  .section-text {
+    font-size: $font-size-14;
+  }
+
+  .container {
+    width: $responsive-width;
+  }
+}
