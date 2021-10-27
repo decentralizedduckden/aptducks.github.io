@@ -36,3 +36,21 @@
     }
   }
 }
+
+@media only screen and (max-width: $screen-770px) {
+  .dinner-plate-section {
+    .container {
+      flex-flow: column nowrap;
+    }
+    .section-text {
+      max-width: 850px;
+    }
+  }
+
+  .dinner-plate-image {
+    margin-top: 80px;
+    img {
+      max-width: unset;
+    }
+  }
+}
