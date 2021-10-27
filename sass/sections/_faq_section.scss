@@ -60,6 +60,8 @@
 
   .parent-li {
     font-size: $font-size-16;
+    padding-left: 8px;
+    border-left: 3px solid rgba($yellow-color, 0.5);
   }
 
   .child-li {
