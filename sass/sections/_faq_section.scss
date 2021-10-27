@@ -38,3 +38,35 @@
 .faq-bottom-text {
   margin-top: 64px;
 }
+
+@media only screen and (min-width: $screen-1920px) {
+  .parent-li {
+    font-size: $font-size-32;
+  }
+
+  .child-li {
+    font-size: $font-size-28;
+  }
+
+  .faq-bottom-text {
+    font-size: $font-size-32;
+  }
+}
+
+@media only screen and (max-width: $screen-770px) {
+  .faq-container {
+    width: 90%;
+  }
+
+  .parent-li {
+    font-size: $font-size-16;
+  }
+
+  .child-li {
+    font-size: $font-size-14;
+  }
+
+  .faq-bottom-text {
+    font-size: $font-size-18;
+  }
+}

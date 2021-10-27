@@ -6,10 +6,10 @@
       rgba(#0c694c, 0.8)
     ),
     url("./assets/hero-bg.png") repeat center;
-  background-size: 200% 200%;
+  background-size: 125% auto;
   padding-top: 200px;
   padding-bottom: 80px;
-  animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease-in-out infinite;
 }
 
 @keyframes AnimationName {
@@ -80,5 +80,111 @@
     width: 100%;
     max-width: 491px;
     object-fit: cover;
+    border-radius: $border-rad;
+  }
+}
+
+@media only screen and (min-width: $screen-1920px) {
+  .hero-title {
+    max-width: unset;
+  }
+
+  .hero-text {
+    max-width: unset;
+  }
+
+  .hero-mint-text {
+    p {
+      font-size: $font-size-32;
+    }
+  }
+
+  .hero-date-text {
+    font-size: $font-size-22;
+  }
+
+  #countdown-button {
+    font-size: $font-size-28;
+    width: 40 0px !important;
+  }
+
+  .hero-image {
+    img {
+      max-width: unset;
+    }
+  }
+}
+
+@media only screen and (max-width: $screen-1100px) {
+  .hero-mint-text {
+    p {
+      font-size: $font-size-22;
+    }
+  }
+
+  .hero-date-text {
+    font-size: $font-size-16;
+  }
+
+  #countdown-button {
+    font-size: $font-size-18;
+    width: 250px !important;
+  }
+  .hero-image {
+    img {
+      max-width: unset;
+    }
+  }
+}
+
+@media only screen and (max-width: $screen-1100px) {
+  .hero-section {
+    .container {
+      flex-flow: column nowrap;
+    }
+  }
+
+  .hero-content {
+    flex-basis: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .hero-mint-text {
+    p {
+      font-size: $font-size-18;
+    }
+  }
+
+  .hero-date-text {
+    font-size: $font-size-14;
+  }
+
+  #countdown-button {
+    font-size: $font-size-16;
+    width: 250px !important;
+  }
+
+  .hero-image {
+    width: 100%;
+    flex-basis: 100%;
+    margin-top: 64px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: $screen-770px) {
+  .hero-content {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .hero-mint-text {
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -3,7 +3,7 @@
     justify-content: space-between;
 
     h3 {
-      margin-top: 16px;
+      margin-bottom: 16px;
     }
   }
 }
@@ -15,5 +15,24 @@
     width: 100%;
     max-width: 400px;
     object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: $screen-1920px) {
+  .dinner-plate-section {
+    .container {
+      h3 {
+        font-size: $font-size-32;
+      }
+    }
+    .section-text {
+      max-width: 850px;
+    }
+  }
+
+  .dinner-plate-image {
+    img {
+      max-width: unset;
+    }
   }
 }
