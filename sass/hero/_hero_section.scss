@@ -177,10 +177,14 @@
 }
 
 @media only screen and (max-width: $screen-770px) {
+  .hero-section {
+  }
+
   .hero-content {
     justify-content: center !important;
     align-items: center !important;
     text-align: center;
+    padding: 32px 16px;
   }
 
   .hero-mint-text {

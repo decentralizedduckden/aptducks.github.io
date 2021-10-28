@@ -4,12 +4,6 @@
   .section-title {
     margin-bottom: 32px;
   }
-
-  ul,
-  li {
-    text-align: justify;
-    list-style: none;
-  }
 }
 
 .parent-li {
@@ -26,6 +20,7 @@
 
 .child-li {
   font-size: $font-size-16;
+
   &::before {
     content: "✔️ ";
   }
@@ -33,6 +28,7 @@
 
 .child-ul {
   margin: 32px 0;
+  padding-left: 16px;
 }
 
 .faq-bottom-text {
@@ -60,7 +56,6 @@
 
   .parent-li {
     font-size: $font-size-16;
-    padding-left: 8px;
     border-left: 3px solid rgba($yellow-color, 0.5);
   }
 
