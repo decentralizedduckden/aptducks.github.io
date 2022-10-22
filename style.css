@@ -875,7 +875,7 @@ footer {
 }
 
 .footer-desc span {
-    background: linear-gradient(-45deg, #9549fc, #5782cd, #07cc91);
+    background: linear-gradient(-45deg, #ffffff, #3a3b3c, #000000);
     padding: 0 10px;
     border-radius: 20px;
     -webkit-box-shadow: 0 0 10px rgba(33, 33, 33, 0.2);
