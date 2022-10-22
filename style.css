@@ -853,7 +853,8 @@ footer {
 }
 
 .footer-img {
-    height: 35px;
+    height: 80px;
+    width: 100px;
     -o-object-fit: contain;
     object-fit: contain
 }
