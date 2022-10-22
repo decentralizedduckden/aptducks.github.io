@@ -513,8 +513,8 @@ button {
 }
 
 .aptos-logo {
-    height: 5px;
-    width: 5px;
+    height: 28px;
+    width: 28px;
     -o-object-fit: contain;
     object-fit: contain;
     margin-left: 10px
