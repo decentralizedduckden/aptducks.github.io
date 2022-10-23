@@ -7,13 +7,13 @@ document.querySelector("#youtube").addEventListener("click", (e) => {
 })
 
 document.querySelector("#twitter").addEventListener("click", (e) => {
-    newWindow = "https://www.twitter.com/DuckDenNFT";
+    newWindow = "https://twitter.com/aptducksNFT";
     window.open(newWindow, "twitterWindow");
     e.preventDefault();
 });
 
 document.querySelector("#discord").addEventListener("click", (e) => {
-    newWindow = "https://discord.gg/QKkhykVDpA";
+    newWindow = "https://discord.gg/5aBnMSVUhj";
     window.open(newWindow, "discordWindow");
     e.preventDefault();
 });
