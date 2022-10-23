@@ -1,2 +1,2 @@
-# decentralizedduckden.github.io
-Decentralized Duck Den's github pages website
+# ducky:)
+github pages website
