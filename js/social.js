@@ -13,7 +13,7 @@ document.querySelector("#twitter").addEventListener("click", (e) => {
 });
 
 document.querySelector("#discord").addEventListener("click", (e) => {
-    newWindow = "https://discord.gg/5aBnMSVUhj";
+    newWindow = "https://discord.gg/aptducks";
     window.open(newWindow, "discordWindow");
     e.preventDefault();
 });
